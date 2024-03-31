@@ -1,4 +1,4 @@
-![image](https://github.com/lowfl3xx3r/main/assets/165562044/e95fd9f2-2ecc-4a9b-91b2-68f38624ffab)# Тема 2. Базовые операции языка Python
+# Тема 2. Базовые операции языка Python
 Отчет по Теме #2 выполнил(а):
 - Катаев Виктор Алексеевич
 - ИНО ЗБ ПОАС-22-1
@@ -29,7 +29,7 @@ result = not True
 print(result)
 ```
 ### Результат.
-(https://github.com/lowfl3xx3r/main/blob/Tema2/pics/lab2_1.png)
+![image](https://github.com/lowfl3xx3r/main/blob/Tema2/pics/lab2_1.png)
 
 ## Самостоятельная работа №2
 ### Присвоить значения трем переменным и вывести их в консоль, используя только две строки редактора кода
