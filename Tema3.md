@@ -90,26 +90,20 @@ else:
 Проверьте работу программы минимум на 3 предложениях, чтобы охватить проверку всех поставленных условий
 
 ```python
-# Приглашение пользователя на ввод предложения
 sentence = input("Введите предложение на английском: ")
 
-# Вывод длины предложения
 print("Длина предложения:", len(sentence))
 
-# Перевод предложения в нижний регистр
 lowercase_sentence = sentence.lower()
 print("Предложение в нижнем регистре:", lowercase_sentence)
 
-# Подсчет количества гласных букв
 vowels = 'aeiou'
 vowel_count = sum(1 for char in lowercase_sentence if char in vowels)
 print("Количество гласных в предложении:", vowel_count)
 
-# Замена слов "ugly" на "beauty"
 modified_sentence = lowercase_sentence.replace("ugly", "beauty")
 print("Предложение после замены слов:", modified_sentence)
 
-# Проверка, начинается ли предложение с "The" и заканчивается ли на "end"
 starts_with_the = lowercase_sentence.startswith("the")
 ends_with_end = lowercase_sentence.endswith("end")
 print("Предложение начинается с 'The':", starts_with_the)
