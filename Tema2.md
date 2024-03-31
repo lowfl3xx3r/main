@@ -39,7 +39,7 @@ a, b, c = 6, 9, 8
 print(a, b, c)
 ```
 ### Результат.
-(https://github.com/lowfl3xx3r/main/blob/Tema2/pics/lab2_2.png)
+![image](https://github.com/lowfl3xx3r/main/blob/Tema2/pics/lab2_2.png)
 
 ## Самостоятельная работа №3
 ### Реализуйте ввод данных в программу, через консоль, в виде только целых чисел (тип данных int). То есть при вводе буквенных символов в консоль, программа не должна работать. Программа должна занимать не более двух строк редактора кода.
@@ -49,7 +49,7 @@ a, b = map(int, input().split())
 print(a, b)
 ```
 ### Результат.
-(https://github.com/lowfl3xx3r/main/blob/Tema2/pics/lab2_3.png)
+![image](https://github.com/lowfl3xx3r/main/blob/Tema2/pics/lab2_3.png)
 
 ## Самостоятельная работа №4
 ### Создайте только одну строковую переменную. Длина строки должна не превышать 5 символов. На выходе мы должны получить строку длиной не менее 16 символов. Программа должна занимать не более двух строк редактора кода.
@@ -59,7 +59,7 @@ string_variable = "89321" * 4
 print(string_variable)
 ```
 ### Результат.
-(https://github.com/lowfl3xx3r/main/blob/Tema2/pics/lab2_4.png)
+![image](https://github.com/lowfl3xx3r/main/blob/Tema2/pics/lab2_4.png)
 
 ## Самостоятельная работа №5
 ### Создайте три переменные: день (тип данных - числовой), месяц (тип данных - строка), год (тип данных - числовой) и выведите в консоль текущую дату в формате: “Сегодня день месяц год. Всего хорошего!” используя F строку и оператор end внутри print(), в котором вы должны написать фразу “Всего хорошего!”. Программа должна занимать не более двух строк редактора кода.
@@ -69,7 +69,7 @@ day, month, year = 31, "Марта", 2024
 print(f"Сегодня {day} {month} {year}.", end=" Всего хорошего!")
 ```
 ### Результат.
-(https://github.com/lowfl3xx3r/main/blob/Tema2/pics/lab2_5.png)
+![image](https://github.com/lowfl3xx3r/main/blob/Tema2/pics/lab2_5.png)
 
 ## Самостоятельная работа №6
 ### В предложении ‘Hello World’ вставьте ‘my’ между двумя словами. Выведите полученное предложение в консоль в одну строку. Программа должна занимать не более двух строк редактора кода
@@ -79,7 +79,7 @@ print('Hello World')
 print('Hello World'.replace(' ', ' my '))
 ```
 ### Результат.
-(https://github.com/lowfl3xx3r/main/blob/Tema2/pics/lab2_6.png)
+![image](https://github.com/lowfl3xx3r/main/blob/Tema2/pics/lab2_6.png)
 
 ## Самостоятельная работа №7
 ### Узнайте длину предложения ‘Hello World’, результат выведите в консоль. Программа должна занимать не более двух строк редактора кода.
@@ -89,7 +89,7 @@ dlina = 'Hello World'
 print(len(dlina))
 ```
 ### Результат.
-(https://github.com/lowfl3xx3r/main/blob/Tema2/pics/lab2_7.png)
+![image](https://github.com/lowfl3xx3r/main/blob/Tema2/pics/lab2_7.png)
 
 ## Самостоятельная работа №8
 ### Переведите предложение ‘HELLO WORLD’ в нижний регистр. Программа должна занимать не более двух строк редактора кода.
@@ -98,7 +98,7 @@ print(len(dlina))
 print('HELLO WORLD'.lower())
 ```
 ### Результат.
-(https://github.com/lowfl3xx3r/main/blob/Tema2/pics/lab2_8.png)
+![image](https://github.com/lowfl3xx3r/main/blob/Tema2/pics/lab2_8.png)
 
 ## Самостоятельная работа №9
 ### У вас есть список целых чисел. Найдите сумму всех четных чисел в этом списке.
@@ -109,7 +109,7 @@ summa = sum(num for num in chisla if num % 2 == 0)
 print("Сумма всех четных чисел в списке:", summa)
 ```
 ### Результат.
-(https://github.com/lowfl3xx3r/main/blob/Tema2/pics/lab2_9.png)
+![image](https://github.com/lowfl3xx3r/main/blob/Tema2/pics/lab2_9.png)
 
 ## Самостоятельная работа №10
 ### Подсчитать количество гласных букв в строке.
@@ -121,4 +121,4 @@ count = sum(1 for char in stroka if char in glasnie)
 print("Количество гласных букв в строке:", count)
 ```
 ### Результат.
-(https://github.com/lowfl3xx3r/main/blob/Tema2/pics/lab2_10.png)
+![image](https://github.com/lowfl3xx3r/main/blob/Tema2/pics/lab2_10.png)
