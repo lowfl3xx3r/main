@@ -141,7 +141,7 @@ class Employee(Person):
         print(f"Я работаю как {self._profession} и зарабатываю {self._salary} рублей в месяц.")
 person1 = Person("Виктор", 23, "Системный администратор", "Екатеринбург")
 person1.introduce()
-person1.work()  # Метод work вызывает общее поведение для класса Person
+person1.work()
 
 employee1 = Employee("Алиса", 25, "Разработчик", "Екатеринбург", 75000)
 employee1.introduce()
