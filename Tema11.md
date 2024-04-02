@@ -58,5 +58,5 @@ fib_with_file(200, 'fib.txt')
 
 ```
 ### Результат.
-![image](https://github.com/lowfl3xx3r/main/blob/Tema2/pics/lab2_2.png)
+![image](https://github.com/lowfl3xx3r/main/blob/Tema11/pics/lab11_2.png)
 Файл fib.txt загружен
